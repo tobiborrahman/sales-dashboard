@@ -1,0 +1,532 @@
+{
+  "results": {
+    "TotalSales": [
+      {
+        "day": "2025-01-01",
+        "totalSale": 29787
+      },
+      {
+        "day": "2025-01-02",
+        "totalSale": 26842
+      },
+      {
+        "day": "2025-01-03",
+        "totalSale": 22754
+      },
+      {
+        "day": "2025-01-04",
+        "totalSale": 18008
+      },
+      {
+        "day": "2025-01-05",
+        "totalSale": 25129
+      },
+      {
+        "day": "2025-01-06",
+        "totalSale": 25204
+      },
+      {
+        "day": "2025-01-07",
+        "totalSale": 28496
+      },
+      {
+        "day": "2025-01-08",
+        "totalSale": 28379
+      },
+      {
+        "day": "2025-01-09",
+        "totalSale": 26587
+      },
+      {
+        "day": "2025-01-10",
+        "totalSale": 25896
+      },
+      {
+        "day": "2025-01-11",
+        "totalSale": 21909
+      },
+      {
+        "day": "2025-01-12",
+        "totalSale": 24483
+      },
+      {
+        "day": "2025-01-13",
+        "totalSale": 29643
+      },
+      {
+        "day": "2025-01-14",
+        "totalSale": 26608
+      },
+      {
+        "day": "2025-01-15",
+        "totalSale": 23913
+      },
+      {
+        "day": "2025-01-16",
+        "totalSale": 21638
+      },
+      {
+        "day": "2025-01-17",
+        "totalSale": 28569
+      },
+      {
+        "day": "2025-01-18",
+        "totalSale": 31272
+      },
+      {
+        "day": "2025-01-19",
+        "totalSale": 23785
+      },
+      {
+        "day": "2025-01-20",
+        "totalSale": 24955
+      },
+      {
+        "day": "2025-01-21",
+        "totalSale": 25404
+      },
+      {
+        "day": "2025-01-22",
+        "totalSale": 24555
+      },
+      {
+        "day": "2025-01-23",
+        "totalSale": 25580
+      },
+      {
+        "day": "2025-01-24",
+        "totalSale": 23847
+      },
+      {
+        "day": "2025-01-25",
+        "totalSale": 27549
+      },
+      {
+        "day": "2025-01-26",
+        "totalSale": 27049
+      },
+      {
+        "day": "2025-01-27",
+        "totalSale": 22055
+      },
+      {
+        "day": "2025-01-28",
+        "totalSale": 21894
+      },
+      {
+        "day": "2025-01-29",
+        "totalSale": 27059
+      },
+      {
+        "day": "2025-01-30",
+        "totalSale": 26625
+      }
+    ],
+    "Sales": [
+      {
+        "_id": "69260433853bec7bb6bb3a35",
+        "date": "2025-01-01T19:32:03.306Z",
+        "price": 431,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb3af9",
+        "date": "2025-01-01T19:32:03.306Z",
+        "price": 337,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb403a",
+        "date": "2025-01-01T19:32:03.307Z",
+        "price": 127,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4049",
+        "date": "2025-01-01T19:32:03.307Z",
+        "price": 99,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb411c",
+        "date": "2025-01-01T19:32:03.308Z",
+        "price": 104,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4268",
+        "date": "2025-01-01T19:32:03.308Z",
+        "price": 195,
+        "customerEmail": "mary@test.com",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4401",
+        "date": "2025-01-01T19:32:03.308Z",
+        "price": 431,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4634",
+        "date": "2025-01-01T19:32:03.308Z",
+        "price": 98,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4650",
+        "date": "2025-01-01T19:32:03.308Z",
+        "price": 340,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb465a",
+        "date": "2025-01-01T19:32:03.308Z",
+        "price": 317,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb47b8",
+        "date": "2025-01-01T19:32:03.309Z",
+        "price": 342,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4867",
+        "date": "2025-01-01T19:32:03.309Z",
+        "price": 84,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb499e",
+        "date": "2025-01-01T19:32:03.309Z",
+        "price": 467,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb49fb",
+        "date": "2025-01-01T19:32:03.309Z",
+        "price": 411,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4b89",
+        "date": "2025-01-01T19:32:03.309Z",
+        "price": 489,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4ce8",
+        "date": "2025-01-01T19:32:03.309Z",
+        "price": 79,
+        "customerEmail": "mary@test.com",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb4d5f",
+        "date": "2025-01-01T19:32:03.309Z",
+        "price": 239,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb501e",
+        "date": "2025-01-01T19:32:03.310Z",
+        "price": 492,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb50f3",
+        "date": "2025-01-01T19:32:03.310Z",
+        "price": 68,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb528b",
+        "date": "2025-01-01T19:32:03.311Z",
+        "price": 254,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb5a3b",
+        "date": "2025-01-01T19:32:03.313Z",
+        "price": 343,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb5af9",
+        "date": "2025-01-01T19:32:03.313Z",
+        "price": 267,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb5ca8",
+        "date": "2025-01-01T19:32:03.313Z",
+        "price": 220,
+        "customerEmail": "mary@test.com",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb60b0",
+        "date": "2025-01-01T19:32:03.314Z",
+        "price": 260,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb619f",
+        "date": "2025-01-01T19:32:03.314Z",
+        "price": 252,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb62c7",
+        "date": "2025-01-01T19:32:03.314Z",
+        "price": 469,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb63e6",
+        "date": "2025-01-01T19:32:03.314Z",
+        "price": 390,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb65e7",
+        "date": "2025-01-01T19:32:03.314Z",
+        "price": 315,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb69f0",
+        "date": "2025-01-01T19:32:03.315Z",
+        "price": 214,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb6aea",
+        "date": "2025-01-01T19:32:03.315Z",
+        "price": 147,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb6b7d",
+        "date": "2025-01-01T19:32:03.315Z",
+        "price": 60,
+        "customerEmail": "mary@test.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb7019",
+        "date": "2025-01-01T19:32:03.315Z",
+        "price": 121,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb70bd",
+        "date": "2025-01-01T19:32:03.315Z",
+        "price": 452,
+        "customerEmail": "mary@test.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb70dd",
+        "date": "2025-01-01T19:32:03.315Z",
+        "price": 79,
+        "customerEmail": "mary@test.com",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb7548",
+        "date": "2025-01-01T19:32:03.316Z",
+        "price": 160,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb7c13",
+        "date": "2025-01-01T19:32:03.317Z",
+        "price": 181,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb7c7a",
+        "date": "2025-01-01T19:32:03.317Z",
+        "price": 209,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb7ce7",
+        "date": "2025-01-01T19:32:03.317Z",
+        "price": 187,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb7dcd",
+        "date": "2025-01-01T19:32:03.317Z",
+        "price": 362,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb7f87",
+        "date": "2025-01-01T19:32:03.317Z",
+        "price": 472,
+        "customerEmail": "mary@test.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb8251",
+        "date": "2025-01-01T19:32:03.317Z",
+        "price": 335,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb83ce",
+        "date": "2025-01-01T19:32:03.317Z",
+        "price": 41,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb842c",
+        "date": "2025-01-01T19:32:03.318Z",
+        "price": 60,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb85cc",
+        "date": "2025-01-01T19:32:03.318Z",
+        "price": 259,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb8785",
+        "date": "2025-01-01T19:32:03.318Z",
+        "price": 425,
+        "customerEmail": "john@example.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb8851",
+        "date": "2025-01-01T19:32:03.318Z",
+        "price": 244,
+        "customerEmail": "neel@autobizz.net",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb89fc",
+        "date": "2025-01-01T19:32:03.318Z",
+        "price": 451,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+33333333",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb8bdb",
+        "date": "2025-01-01T19:32:03.318Z",
+        "price": 303,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+11111111",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb8d1f",
+        "date": "2025-01-01T19:32:03.319Z",
+        "price": 228,
+        "customerEmail": "issa@autobizz.net",
+        "customerPhone": "+22222222",
+        "__v": 0
+      },
+      {
+        "_id": "69260433853bec7bb6bb926d",
+        "date": "2025-01-01T19:32:03.322Z",
+        "price": 116,
+        "customerEmail": "ahmed@shop.com",
+        "customerPhone": "+33333333",
+        "__v": 0
+      }
+    ]
+  },
+  "pagination": {
+    "before": "eyJ2YWx1ZSI6IjIwMjUtMDEtMDFUMTk6MzI6MDMuMzA2WiIsIl9pZCI6IjY5MjYwNDMzODUzYmVjN2JiNmJiM2EzNSJ9",
+    "after": "eyJ2YWx1ZSI6IjIwMjUtMDEtMDFUMTk6MzI6MDMuMzIyWiIsIl9pZCI6IjY5MjYwNDMzODUzYmVjN2JiNmJiOTI2ZCJ9"
+  }
+}
