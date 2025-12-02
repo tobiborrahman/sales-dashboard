@@ -21,7 +21,7 @@ export const StatsCards = ({ sales }: StatsCardsProps) => {
       </div>
       <div className="bg-white rounded-lg shadow-md p-6">
         <p className="text-slate-600 text-sm font-medium">Average Price</p>
-        <p className="text-3xl font-bold text-blue-600 mt-2">{formatCurrency(avgPrice)}</p>
+        <p className="text-3xl font-bold text-[#C9B59C] mt-2">{formatCurrency(avgPrice)}</p>
       </div>
     </div>
   );

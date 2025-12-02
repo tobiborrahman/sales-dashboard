@@ -21,7 +21,7 @@ export const FilterSection = ({ filters, onFilterChange, onReset }: FilterSectio
         <h2 className="text-xl font-semibold text-slate-900">Filters</h2>
         <button
           onClick={onReset}
-          className="px-4 py-2 text-sm bg-slate-200 cursor-pointer text-slate-700 rounded-lg hover:bg-slate-300 transition"
+          className="px-4 py-2 text-sm bg-[#EFE9E3] cursor-pointer text-slate-700 rounded-md hover:bg-slate-300 transition"
         >
           Reset Filters
         </button>

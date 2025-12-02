@@ -37,7 +37,7 @@ export const SalesChart = ({ data }: SalesChartProps) => {
           <Line 
             type="monotone" 
             dataKey="totalSale" 
-            stroke="#3b82f6" 
+            stroke="#C9B59C" 
             dot={false}
             strokeWidth={2}
             name="Total Sales"
