@@ -10,17 +10,13 @@ async function authorize() {
   if (!res.ok) throw new Error("Authorization failed");
 
   const data = await res.json();
-
-  // REAL KEY IS "token"
   return data.token; 
 }
 
 export async function getSalesData(filters: any) {
-  // 1️⃣ Get token from /getAuthorize
   const token = await authorize();
   if (!token) throw new Error("Missing server token");
 
-  // 2️⃣ Build params
   const params = new URLSearchParams({
     startDate: filters.startDate || "",
     endDate: filters.endDate || "",
@@ -33,7 +29,6 @@ export async function getSalesData(filters: any) {
     after: filters.after || "",
   });
 
-  // 3️⃣ GET /sales with header
   const res = await fetch(`${BASE_URL}/sales?${params.toString()}`, {
     method: "GET",
     headers: {
@@ -44,3 +39,4 @@ export async function getSalesData(filters: any) {
   if (!res.ok) throw new Error("Sales fetch failed");
   return res.json();
 }
+
