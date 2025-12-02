@@ -19,18 +19,15 @@ const DEFAULT_FILTERS: FilterParams = {
 };
 
 export const Dashboard = () => {
-  // Local input state - doesn't trigger API calls
   const [inputFilters, setInputFilters] = useState<FilterParams>(DEFAULT_FILTERS);
-  // Applied filters for data fetching - only updates after debounce
   const [appliedFilters, setAppliedFilters] = useState<FilterParams>(DEFAULT_FILTERS);
   const [sortField, setSortField] = useState<SortField>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
 
-  // Debounce filter changes to avoid excessive API calls
   useEffect(() => {
     const timer = setTimeout(() => {
       setAppliedFilters(inputFilters);
-    }, 500); // 500ms debounce
+    }, 500);
 
     return () => clearTimeout(timer);
   }, [inputFilters]);
@@ -38,7 +35,6 @@ export const Dashboard = () => {
   const { data, loading, currentPageIndex, goToNextPage, goToPreviousPage, hasNextPage, hasPrevPage } =
     useSalesData(appliedFilters);
 
-  // Memoized sort handler
   const handleSort = useCallback((field: SortField) => {
     setSortField(prev => {
       const newField = prev === field ? field : field;
@@ -51,7 +47,6 @@ export const Dashboard = () => {
     });
   }, []);
 
-  // Memoized reset handler
   const handleResetFilters = useCallback(() => {
     setInputFilters(DEFAULT_FILTERS);
     setAppliedFilters(DEFAULT_FILTERS);
@@ -59,12 +54,10 @@ export const Dashboard = () => {
     setSortDirection('asc');
   }, []);
 
-  // Memoized filter change handler - only updates local state
   const handleFilterChange = useCallback((filters: FilterParams) => {
     setInputFilters(filters);
   }, []);
 
-  // Filter and sort sales data - only recalculates when dependencies change
   const sortedAndFilteredSales: Sale[] = useMemo(() => {
     if (!data?.results?.Sales) return [];
 
@@ -85,7 +78,6 @@ export const Dashboard = () => {
       return dateMatch && priceMatch && emailMatch && phoneMatch;
     });
 
-    // Sort the filtered results
     if (sortField) {
       filtered = [...filtered].sort((a, b) => {
         let aVal = sortField === 'date' ? new Date(a.date).getTime() : a.price;
@@ -97,7 +89,6 @@ export const Dashboard = () => {
     return filtered;
   }, [data?.results?.Sales, appliedFilters, sortField, sortDirection]);
 
-  // Memoized chart data
   const chartData = useMemo(() => {
     if (!data?.results?.TotalSales) return [];
     const start = new Date(appliedFilters.startDate);
@@ -108,7 +99,6 @@ export const Dashboard = () => {
     });
   }, [data?.results?.TotalSales, appliedFilters]);
 
-  // Memoized pagination handler
   const handleNextPage = useCallback(() => {
     goToNextPage(appliedFilters);
   }, [appliedFilters, goToNextPage]);
@@ -124,20 +114,16 @@ export const Dashboard = () => {
           <p className="text-slate-600">Monitor your sales data with filters and analytics</p>
         </div>
 
-        {/* Filters - uses local state, doesn't trigger API calls on keystroke */}
         <FilterSection
           filters={inputFilters}
           onFilterChange={handleFilterChange}
           onReset={handleResetFilters}
         />
 
-        {/* Chart */}
         <SalesChart data={chartData} />
 
-        {/* Stats */}
         <StatsCards sales={sortedAndFilteredSales} />
 
-        {/* Table */}
         <SalesTable
           filteredData={sortedAndFilteredSales}
           sales={sortedAndFilteredSales}
@@ -146,7 +132,6 @@ export const Dashboard = () => {
           onSort={handleSort}
         />
 
-        {/* Pagination */}
         {sortedAndFilteredSales.length > 0 && (
           <PaginationControls
             currentPage={currentPageIndex}
